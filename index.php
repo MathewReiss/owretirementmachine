@@ -108,12 +108,12 @@
             		<option value="hzs">Hangzhou Spark</option>
             		<option value="hou">Houston Outlaws</option>
             		<option value="lon">London Spitfire</option>
-            		<option value="lag">Los Angeles Gladiators</option>
-            		<option value="lav">Los Angeles Valiant</option>
-            		<option value="nyxl">New York Excelsior</option>
+            		<option value="lag">LA Gladiators</option>
+            		<option value="lav">LA Valiant</option>
+            		<option value="nyxl">NY Excelsior</option>
             		<option value="par">Paris Eternal</option>
             		<option value="phi">Philadelphia Fusion</option>
-            		<option value="sfs">San Francisco Shock</option>
+            		<option value="sfs">SF Shock</option>
             		<option value="seo">Seoul Dynasty</option>
             		<option value="shd">Shanghai Dragons</option>
             		<option value="tor">Toronot Defiant</option>
