@@ -18,10 +18,19 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif; }
 
+button {
+  color: #FE9F2B;
+}
+
+option {
+  color: black;
+}
+
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
-  transition: .3s all ease; }
+  transition: .3s all ease; 
+  color: #FE9F2B;}
   a:hover {
     text-decoration: none; }
 
@@ -66,7 +75,7 @@ a {
     visibility: visible; }
 
 .btn {
-  position: relative;
+  position: relative;  
   top: 0; }
   .btn:hover, .btn:active, .btn:focus {
     outline: none;
@@ -79,7 +88,9 @@ a {
   .btn.btn-sm {
     font-size: 0.9rem; }
   .btn.btn-primary {
-    color: #fff; }
+    color: black; 
+    background: #FE9F2B;
+    border-color: black;}
   .btn.btn-outline-primary:hover {
     color: #fff !important; }
   .btn.btn-black {
@@ -230,7 +241,7 @@ a {
     padding-bottom: 15px; }
     .site-footer .footer-heading:before {
       content: "";
-      background: #e3207b;
+      background: #FE9F2B;
       width: 40px;
       height: 2px;
       position: absolute;
@@ -1605,7 +1616,7 @@ a {
     left: 0;
     bottom: 0;
     height: 2px;
-    background: #e3207b; }
+    background: #FE9F2B; }
 
 .site-section-heading.w-border.text-center h2:after {
   left: 50%;
