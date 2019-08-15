@@ -427,19 +427,7 @@
             <div class="mb-5">
               <h3 class="footer-heading mb-4">About OW Retirement Machine</h3>
               <p>Because the end of the season is drawing near, and you never know who will or won't survive the "Hukening" (at least on Boston), I created this helpful tool for players who needed a little help expressing themselves. /s<br /><br />OW Retirement Machine was started as a joke after one of the hosts of the <a href="https://www.twitter.com/weeklyuprising" target="_blank">Weekly Uprising Podcast</a> commented that players use the word "retire" somewhat casually in esports compared to traditional sports.  I hope it gave you a laugh, and if you like this kind of thing, check out the <a href="https://www.soundcloud.com/weeklyuprising" target="_blank">podcast</a>!<br /><span style="text-align: right;">-<em>Snowy</em></span><br /><br />Oh! And the name is obviously a reference to <a href="http://owplayoffmachine.com/" target="_blank">OW Playoff Machine</a>, a great website that lets you know just how early your team has been eliminated from playoff contention :)</p>
-            </div>
-            <div class="mb-5">
-              <h3 class="footer-heading mb-4">Subscribe</h3>
-              <form action="#" method="post" class="site-block-subscribe">
-                <div class="input-group mb-3">
-                  <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter your email"
-                    aria-label="Enter Email" aria-describedby="button-addon2">
-                  <div class="input-group-append">
-                    <button class="btn btn-primary rounded-top-right-0" type="button" id="button-addon2">Subscribe</button>
-                  </div>
-                </div>
-              </form>
-            </div>
+            </div>            
           </div>
         </div>
         <div class="row pt-5 mt-5 text-center">
