@@ -1,4 +1,4 @@
-<?php ?>
+<?php echo "<!-- PHP -->" ?>
 
 <!DOCTYPE html>
 <html lang="en">
