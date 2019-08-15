@@ -356,7 +356,7 @@
             <p id="generated">
             <em>Generated text will go here...</em>
             </p><br />
-            <button class="btn btn-secondary rounded-top-right-0" type="button" id="button-copy" data-clipboard-target="generated">Copy to Clipboard</button>
+		  <div id="desktopCopyButton"><button class="btn btn-secondary rounded-top-right-0" type="button" id="button-copy">Copy to Clipboard</button></div>
           </div>
         </div>
 	  </div>
@@ -458,8 +458,7 @@
   <script src="js/bootstrap-datepicker.min.js"></script>
   <script src="js/aos.js"></script>  
 
-  <script src="js/main.js"></script>
-  <script src="js/clipboard.min.js"></script>
+  <script src="js/main.js"></script>  
 	  
   </body>
 </html>
