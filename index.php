@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
     <link rel="stylesheet" href="css/fl-bigmug-line.css">
     
+    <link rel="shortcut icon" href="owfavicon.ico" type="image/x-icon">
+    <link rel="icon" href="owfavicon.ico" type="image/x-icon">
   
     <link rel="stylesheet" href="css/aos.css">
 
