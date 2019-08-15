@@ -363,6 +363,11 @@
 	</div>
 
 	<script>
+		var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+		if (isMobile) {
+  			var desktopCopyButton = document.getElementById("desktopCopyButton");
+			desktopCopyButton.style.display = "none";
+		}
 		
 		function copyToClipboard(){
 			var generated = document.getElementById("generated");		
