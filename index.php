@@ -15,8 +15,7 @@
     <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/mediaelementplayer.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">    
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
     <link rel="stylesheet" href="css/fl-bigmug-line.css">
@@ -216,7 +215,7 @@
     				generated.innerHTML += "friends, i'M gonna level with you. i just don't think I have what it takes to be in this league. the level of play is so high, and we both know i'm not riding the bench because i main an 'off meta' hero. I wish. But the truth is, as a Mei / Orisa / Zen specialist, i would be out there every match if I had what it took. after speaking with the coaching staff, we both agreed that this is what made the most sense, not just for me, but definitely for the team.";
     				break;
     			case "other":
-    					generated.innerHTML += "not many of you know this, but I was actually a " + (Math.floor(Math.random()*2) === 0 ? "league of legends" : (Math.floor(Math.random()*2) === 0 ? "tf2" : "minecraft"))) + " pro before coming to Overwatch. nothing against Blizzard and crew, but I think the future of esports is definitely going to be " + (Math.floor(Math.random()*2) === 0 ? "Fortnite" : (Math.floor(Math.random()*2) === 0 ? "APEX Legends" : "minecraft")) + " and, as such, I'm hopping on the bandwagon and grinding away. it's an exciting time to be an esports professional for sure.";
+    					generated.innerHTML += "not many of you know this, but I was actually a " + (Math.floor(Math.random()*2) === 0 ? "league of legends" : (Math.floor(Math.random()*2) === 0 ? "tf2" : "minecraft")) + " pro before coming to Overwatch. nothing against Blizzard and crew, but I think the future of esports is definitely going to be " + (Math.floor(Math.random()*2) === 0 ? "Fortnite" : (Math.floor(Math.random()*2) === 0 ? "APEX Legends" : "minecraft")) + " and, as such, I'm hopping on the bandwagon and grinding away. it's an exciting time to be an esports professional for sure.";
     				break;
     			case "la":
     				generated.innerHTML += "uuuugh, this part is always so awkward. you see, as i've explained on stream many times, Los Angeles is just a terrible, <em>terrible</em> place to live. the weather is too nice, there's <strong>so</strong> much traffic you have to sit through in your air-conditioned chauferred team van, and don't even get me started on the food. I know local matches are coming next year, but for my own mental health and sanity, I need to move somewhere further north, where it's cold and miserable like my soul.";
