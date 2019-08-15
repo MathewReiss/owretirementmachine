@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Deejee &mdash; Colorlib Website Template</title>
+    <title>OW Retirement Machine</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -32,7 +32,7 @@
     
   
   <div class="site-wrap">
-
+<!--
     <div class="site-navbar mt-4">
         <div class="container py-1">
           <div class="row align-items-center">
@@ -77,7 +77,8 @@
         </div>
       </div>
     </div>
-
+-->
+<!--
     <div class="site-mobile-menu">
       <div class="site-mobile-menu-header">
         <div class="site-mobile-menu-close mt-3">
@@ -85,14 +86,15 @@
         </div>
       </div>
       <div class="site-mobile-menu-body"></div>
-    </div> <!-- .site-mobile-menu -->
+    </div>
+    -->
     
-    <div class="site-blocks-cover overlay" style="background-image: url('images/hero_bg_1.jpg');" data-aos="fade" data-stellar-background-ratio="0.5" data-aos="fade">
+    <div class="site-blocks-cover overlay" style="background-image: url('https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/1e/1E7BP97U0XAH1533227441212.jpg');" data-aos="fade" data-stellar-background-ratio="0.5" data-aos="fade">
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-7 text-center" data-aos="fade-up" data-aos-delay="400">
             <h1 class="mb-4">It's been a long grind, but it's time to rest</h1>
-            <p><a href="#" class="btn btn-primary px-4 py-3">Download Template</a></p>
+            <!--<p><a href="#" class="btn btn-primary px-4 py-3">Download Template</a></p>-->
           </div>
         </div>
       </div>
