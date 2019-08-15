@@ -91,7 +91,7 @@
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-7 text-center" data-aos="fade-up" data-aos-delay="400">
-            <h1 class="mb-4">Turn On The Feeling With Music</h1>
+            <h1 class="mb-4">It's been a long grind, but it's finally time to rest...</h1>
             <p><a href="#" class="btn btn-primary px-4 py-3">Download Template</a></p>
           </div>
         </div>
