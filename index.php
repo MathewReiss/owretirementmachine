@@ -307,7 +307,7 @@
     				generated.innerHTML += "Soe.";
     				break;
     			case "meta":
-    				generated.innerHTML += "the meta changing so drastically *right* before stage 4, and the introducing a new hero for playoffs. WAY TO KEEP US ON OUR TOES BLIZZARD! #notbitter"
+    				generated.innerHTML += "the meta changing so drastically *right* before stage 4, and the introducing a new hero for playoffs. WAY TO KEEP US ON OUR TOES BLIZZARD! #notbitter #sigmatoes"
     				break;
     			case "swag":
     				generated.innerHTML += "the epic free swag we got from ";
