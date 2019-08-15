@@ -356,7 +356,7 @@
             <p id="generated">
             <em>Generated text will go here...</em>
             </p><br />
-		  <div id="desktopCopyButton"><button class="btn btn-secondary rounded-top-right-0" type="button" id="button-copy">Copy to Clipboard</button></div>
+		  <div id="desktopCopyButton"><button class="btn btn-secondary rounded-top-right-0" type="button" id="button-copy" onclick="copyToClipboard()">Copy to Clipboard</button></div>
           </div>
         </div>
 	  </div>
@@ -365,7 +365,6 @@
 	<script>
 		
 		function copyToClipboard(){
-			/*
 			var generated = document.getElementById("generated");		
 
 			var inp = document.createElement('input');
@@ -374,7 +373,7 @@
 			inp.select();
 			document.execCommand('copy', false);
 			inp.remove();
-			*/
+			
 			var copyButton = document.getElementById("button-copy");
 			copyButton.innerHTML = "Copied!";			
 		}			
