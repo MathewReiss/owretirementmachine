@@ -123,6 +123,7 @@
             </p>
             <p>Why are you retiring?<br />
             	<select class="form-control border-secondary text-white bg-transparent" name="why" id="why">
+            		<option value="burn">Burned Out</option>
             		<option value="stream">Made more money streaming $$$</option>
             		<option value="cut">Probably going to be cut anyways</option>
             		<option value="other">Going Pro in Fortnite / APEX / Minecraft</option>
@@ -173,49 +174,170 @@
 
     <script>
     	function generateText(){
-    		var lang = document.getElementById("lang").value;
-    		var team = document.getElementById("team").value;
-    		var why = document.getElementById("why").value;
-    		var start = document.getElementById("start").value;
-    		var highlight = document.getElementById("highlight").value;
-    		var miss = document.getElementById("miss").value;
+    		var lang = document.getElementById("lang");
+    		var team = document.getElementById("team");
+    		var why = document.getElementById("why");
+    		var start = document.getElementById("start");
+    		var highlight = document.getElementById("highlight");
+    		var miss = document.getElementById("miss");
 
     		var generated = document.getElementById("generated");
     		generated.innerHTML = "";
 
-    		// Greeting
-    		
-    		generated.innerHTML += (lang == "en" ? "hi everyone" : "여러분 안녕");
+    		// Greeting    		
+
+    		generated.innerHTML += (lang.value == "en" ? "hi everyone" : "여러분 안녕");
 
     		generated.innerHTML += "<br /><br />";
 
     		// Introduction
 
-    		generated.innerHTML += "";
+    		generated.innerHTML += "i know that some of you are probably judging me for this. after all, getting paid to play video games sounds amazing, and it has been - at times. i'm grateful for the opportunities that the " + team.options[team.selectedIndex].text + " have given me. but for reasons i'll explain below, now feels like the right time for me to retire.";
 
     		generated.innerHTML += "<br /><br />";
 
     		// Reason for retiring
 
-    		generated.innerHTML += "";
+    		switch(why.value){
+    			case "scandal":
+    			case "burn":
+    				generated.innerHTML += "to be completely honest, overwatch just isn't fun any more. new heroes are introduced too frequently, blizz is introducing Random metas with each patch shift. in scrims, right now the dominant 2-2-2 meta is brig x pharah (don't look that up). and the levels actually change randomly - you don't notice it as a casual player but when you're grinding 22 hours a day on Horizon Lunar Colony, I swear the tunnels and layout changes randomly.<br /><br />regardless, i can't remember the last time I showered, let alone was happy.";
+    				break;
+    			case "stream":
+    				generated.innerHTML += "oWL has been a ton of fun, but most of you reading this probably know me from back in my twitch days. Streaming was a blessed life, and allowed me to be myself in front of a huge crowd of nonjudgemental strangers on the internet. It was liberating, and i miss it.<br /><br />so, as of now, I will be returning exclusively to streaming. Twitch has never been a better place to be a content creator, especially one who likes to throw the occasional cat. and with ninja running away with his tail between his legs to mixeR, there's more eyeballs for me to make mone...share my content with.";
+    				break;
+    			case "peak":    			
+    			case "cut":
+    				generated.innerHTML += "friends, i'M gonna level with you. i just don't think I have what it takes to be in this league. the level of play is so high, and we both know i'm not riding the bench because i main an 'off meta' hero. I wish. But the truth is, as a Mei / Orisa / Zen specialist, i would be out there every match if I had what it took. after speaking with the coaching staff, we both agreed that this is what made the most sense, not just for me, but definitely for the team.";
+    				break;
+    			case "other":
+    					generated.innerHTML += "not many of you know this, but I was actually a " + (Math.floor(Math.random()*2) === 0 ? "league of legends" : (Math.floor(Math.random()*2 === 0 ? "tf2" : "minecraft"))) + " pro before coming to Overwatch. nothing against Blizzard and crew, but I think the future of esports is definitely going to be " + (Math.floor(Math.random()*2) === 0 ? "Fortnite" : (Math.floor(Math.random()*2) === 0 ? "APEX Legends" : "minecraft")) + " and, as such, I'm hopping on the bandwagon and grinding away. it's an exciting time to be an esports professional for sure.";
+    				break;
+    			case "la":
+    				generated.innerHTML += "uuuugh, this part is always so awkward. you see, as i've explained on stream many times, Los Angeles is just a terrible, <em>terrible</em> place to live. the weather is too nice, there's <strong>so</strong> much traffic you have to sit through in your air-conditioned chauferred team van, and don't even get me started on the food. I know local matches are coming next year, but for my own mental health and sanity, I need to move somewhere further north, where it's cold and miserable like my soul.";
+    				break;    				
+    			case "boston":
+    				generated.innerHTML += "a wise man once told me to recognize greatness when I saw it, evne though i didn't have it myself. and folks, i have seen greatness. you too, have seen greatness.<br /><br />You see it every week on the Boston Uprising.<br /><br />the team synergy, the jawlines the HAIR, the aesthetically <em>perfect</em> blue and yellow color scheme, mmmmm. it's just to much to think that I'm even competing against these gods amongst men, even if my team has 4-0'd them every time we've played.";
+    				break;
+    			case "local":
+    				generated.innerHTML += "here's a little tea for you: none of the teams are excited for home matches. none of us, least of all the " + team.options[team.selectedIndex].text + ". Have  you <em>seen</em> how expensive it is to live in " + team.options[team.selectedIndex].text.split(" ")[0] + "?!? i can't afford it, not with the increasing median mortgage cap relative to annualized after-tax take-home deductible salary, that's for sure!";
+    				break;    			
+    			case "age":
+    				generated.innerHTML += "In the words of Soldier: 76, 'I'm not a young man anymore'. This is a game for the youth, and I need to recognize when my window of opportunity for greatness has passed. Maybe I'll consider a coaching role once I've had some time to relax on my porch in a rocking chair with some lemonade. Maybe I'll give casting a shot. Who knows. Well, I do, but not yet. All I know now is that at 26, I just don't have it like I used to any more.";
+    				break;
+    		}
 
-    		generated.innerHTML += "<br /><br />";
+    		generated.innerHTML += "<br /><br />And so, i'm calling it quits.<br /><br />";
 
     		// Nostalgia
 
-			generated.innerHTML += "";
+			generated.innerHTML += "it has certainly been a wild ride though. i never thought I'd have the opportunity to play in OWL.";
+
+			switch(start.value){
+				case "legion":
+					generated.innerHTML += " but I, like so many before me, eventually graduated from the illustrious Gladiators Legion to join one of the 20 top teams!";
+    				break;
+    			case "contenders":
+    				generated.innerHTML += " but I, like some before me, graduated from Contenders to join of the 20 top teams!";
+    				break;
+    			case "world":
+    				generated.innerHTML += " but I got lucky, and didn't have to play Korea first in the World Cup, and manage to show off enough one-tricking that I was called up to the big leagues!";
+    				break;
+    			case "ladder": 
+    				generated.innerHTML += " but then I realized I was top 500 and better than half the league anyways. " + team.options[team.selectedIndex].text + " was the only team smart enough to agree.";
+    				break;
+    			case "uncle":
+    				generated.innerHTML += " but then I called my Uncle Jeff and told him all I wanted for Christmas that year was to be on a professional Overwatch League team. Funny how life works sometimes...";
+    				break;
+    			case "lost":
+    				generated.innerHTML += " but after getting lost wandering around Blizzard Arena looking for a bathroom, I found myself sitting at a desk with a nice PC with the game loaded and automatically set to one-trick Brig for the " + team.options[team.selectedIndex].text + ". the rest is history."
+    				break;
+    			case "two":
+    				generated.innerHTML += " but then miracle-of-miracles, my two-way contract actually came into effect and I was...eventually part of the Overwatch League! h/t Fusions for dealing with that whole 'contract dispute' bit for the rest of us, ey!";
+    				break;
+			}
 
     		generated.innerHTML += "<br /><br />";
 
     		// Highlight
 
-    		generated.innerHTML += "";
+    		generated.innerHTML += "there will be things about this experience I will <em>never</em>forget. the time the whole crowd started chanting 'hand sanitizer, hand sanitizer!'. the time Goldenboy casted. but by far, my FAVORITE memory has got to be ";
 
-    		generated.innerHTML += "<br /><br />";
+    		switch(highlight.value){
+    			case "brig":
+    				generated.innerHTML += "getting to play my favorite hero - Brigitte Lindholm - ALL THE TIME. <3 brig for life.";
+    				break;
+    			case "backstage":
+    				generated.innerHTML += "that time I was sitting backstage when the epic reverse sweep happened! you know the one.";
+    				break;
+    			case "allstar": 
+    				generated.innerHTML += "the all star weekend that nobody watched. man, fun times.";
+    				break;
+    			case "mvp":
+    				generated.innerHTML += "winning league MVP. shoutout to all the other candidates, but the people have spoken! *mic drop*"
+    				break;
+    			case "potg":
+    				generated.innerHTML += "that time i got POTG and you could <em>almost</em> see it on stream when they did the creepy hover-behind-us-with-cameras thing!"
+    				break;
+    			case "danny":
+    				generated.innerHTML += "that time I touched danny's mic.";
+    				break;
+    		}
+
+    		generated.innerHTML += "<br /><br />that said, I really think the thing i'm going to miss the most is ";
 
     		// Something worth missing
 
-    		generated.innerHTML += "";
+    		switch(miss.value){
+    			case "awkward":
+    				generated.innerHTML += "that awkward moment after a match where you don't know whether to bow, shake hands, or hug the player on the opposing team. you get to have this mini-existential crisis SIX TIMES! it was amazing.";
+    				break;
+    			case "casters":
+    				generated.innerHTML += "laughing silently as tears streamed down my face when the casters mispronounce my gamertag over. and. over again.";
+    				break;
+    			case "hands":
+    				generated.innerHTML += "those little hand-warmy packets they gave us between maps :D";
+    				break;
+    			case "soe":
+    				generated.innerHTML += "Soe.";
+    				break;
+    			case "meta":
+    				generated.innerHTML += "the meta changing so drastically *right* before stage 4, and the introducing a new hero for playoffs. WAY TO KEEP US ON OUR TOES BLIZZARD! #notbitter"
+    				break;
+    			case "swag":
+    				generated.innerHTML += "the epic free swag we got from ";
+
+    				switch(team.value){
+    					case "bos": 
+    						generated.innerHTML +="bose and gillette";
+    						break;
+    					case "fla" : 
+    						generated.innerHTML +="mcdonalds (unoficially of course)";
+    						break;
+    					case "hou": 
+    						generated.innerHTML +="t-mobile";
+    						break;
+    					case "lon":
+    					case "nyxl":
+    						generated.innerHTML += "logitch g";
+    						break;
+    					case "dal":
+    						generated.innerHTML += "jack in the box (yum!)";
+    						break;
+    					case "hzs":
+    						generated.innerHTML += "bilibilibilibili :)";
+    						break;
+    					case "seo":
+    						generated.innerHTML += "Nighthawk PRO Gaming";
+    						break;
+    					default:
+    						generated.innerHTML += "our sponsor";
+    				}
+    				generated.innerHTML += "."
+    				break;
+    		}
+
+    		generated.innerHTML += "<br /><br />goodbye for now, see you on the other side.";
 
     		var generateButton = document.getElementById("button-generate");
     		generateButton.innerHTML = "Generated!";
