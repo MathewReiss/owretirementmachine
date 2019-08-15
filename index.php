@@ -31,446 +31,131 @@
   </head>
   <body>
   
-    
-  
   <div class="site-wrap">
-<!--
-    <div class="site-navbar mt-4">
-        <div class="container py-1">
-          <div class="row align-items-center">
-            <div class="col-8 col-md-8 col-lg-4">
-              <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0"><strong>Deejee<span class="text-primary">.</span></strong></a></h1>
-            </div>
-            <div class="col-4 col-md-4 col-lg-8">
-              <nav class="site-navigation text-right text-md-right" role="navigation">
-
-                <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
-
-                <ul class="site-menu js-clone-nav d-none d-lg-block">
-                  <li class="active">
-                    <a href="index.html">Home</a>
-                  </li>
-                  <li><a href="dj.html">DJs</a></li>
-                  <li class="has-children">
-                    <a href="shows.html">Shows</a>
-                    <ul class="dropdown arrow-top">
-                      <li><a href="#">Top 20 of The Week</a></li>
-                      <li><a href="#">Featured Artist</a></li>
-                      <li><a href="#">Interviews</a></li>
-                      <li class="has-children">
-                        <a href="#">Sub Menu</a>
-                        <ul class="dropdown">
-                          <li><a href="#">Menu One</a></li>
-                          <li><a href="#">Menu Two</a></li>
-                          <li><a href="#">Menu Three</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li><a href="events.html">Events</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                </ul>
-              </nav>
-            </div>
-           
-
-          </div>
-        </div>
-      </div>
-    </div>
--->
-<!--
-    <div class="site-mobile-menu">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div>
-    -->
     
     <div class="site-blocks-cover overlay" style="background-image: url('https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/1e/1E7BP97U0XAH1533227441212.jpg');" data-aos="fade" data-stellar-background-ratio="0.5" data-aos="fade">
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-7 text-center" data-aos="fade-up" data-aos-delay="400">
-            <h1 class="mb-4">It's been a long grind, but it's time to rest</h1>
-            <!--<p><a href="#" class="btn btn-primary px-4 py-3">Download Template</a></p>-->
+            <h1 style="text-shadow: 2px 2px black;" class="mb-4">It's been a long grind, but it's time to rest</h1>           
           </div>
         </div>
       </div>
     </div>
 
-    <div class="site-section">
-      <div class="container">
-        <div class="row">
-          <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
-            <h2 class="mb-5">Upcoming Shows</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, fugit nam obcaecati fuga itaque deserunt
-              officia, error reiciendis ab quod?</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-            <a href="#" class="unit-9">
-              <div class="image" style="background-image: url('images/img_1.jpg');"></div>
-              <div class="unit-9-content">
-                <h2>This Is The Day</h2>
-                <span>Friday 1:00pm &mdash; 2:30pm</span>
-                <span>with Wendy Matos</span>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
-            <a href="#" class="unit-9">
-              <div class="image" style="background-image: url('images/img_2.jpg');"></div>
-              <div class="unit-9-content">
-                <h2>Electro Party</h2>
-                <span>Friday 1:00pm &mdash; 2:30pm</span>
-                <span>with Gaby Tenda</span>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
-            <a href="#" class="unit-9">
-              <div class="image" style="background-image: url('images/img_3.jpg');"></div>
-              <div class="unit-9-content">
-                <h2>Classic Hits</h2>
-                <span>Friday 1:00pm &mdash; 2:30pm</span>
-                <span>with James Tenda</span>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
-            <a href="#" class="unit-9">
-              <div class="image" style="background-image: url('images/img_4.jpg');"></div>
-              <div class="unit-9-content">
-                <h2>Classic Songs</h2>
-                <span>Friday 1:00pm &mdash; 2:30pm</span>
-                <span>with Troy Peters</span>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="site-section">
-
-      <div class="container">
-
-        <div class="row">
-          <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto" data-aos="fade-up">
-            <h2 class="mb-5">Featured Podcasts</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, fugit nam obcaecati fuga itaque deserunt officia, error reiciendis ab quod?</p>
-          </div>
-        </div>
-        
-        <div class="site-block-retro d-block d-md-flex">
-
-          <a href="#" class="col1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100">
-            <div class="image" style="background-image: url('images/img_2.jpg');"></div>
-            <div class="unit-9-content">
-              <h2>Classic Songs For Classic People</h2>
-              <span>Friday 1:00pm &mdash; 2:30pm</span>
-            </div>
-          </a>
-
-          <div class="col2 ml-auto">
-
-            <a href="#" class="col2-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="200">
-              <div class="image" style="background-image: url('images/img_3.jpg');"></div>
-              <div class="unit-9-content">
-                <h2>Classic Songs For Classic People</h2>
-                <span>Friday 1:00pm &mdash; 2:30pm</span>
-              </div>
-            </a>
-
-            <a href="#" class="col2-row2 unit-9 no-height" data-aos="fade-up" data-aos-delay="300">
-              <div class="image" style="background-image: url('images/img_1.jpg');"></div>
-              <div class="unit-9-content">
-                <h2>Classic Songs For Classic People</h2>
-                <span>Friday 1:00pm &mdash; 2:30pm</span>
-              </div>
-            </a>
-
-          </div>
-
-        </div>
-        
-      </div>
-    </div>
-
-    
-    <div class="site-section bg-dark block-13">
-      <div class="container" data-aos="fade-up">
-        <div class="row">
-          <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
-            <h2 class="mb-5">Love By Our Listeners</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, fugit nam obcaecati fuga itaque deserunt officia, error reiciendis ab quod?</p>
-          </div>
-        </div>
-        <div class="nonloop-block-13 owl-carousel">
-          
-          <div class="text-center p-3 p-md-5 bg-white">
-            <div class="mb-4">            
-              <img src="images/person_1.jpg" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
-            </div>
-            <div class="text-black">
-              <h3 class="font-weight-light h5">Megan Smith</h3>
-              <p class="font-italic">&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, iusto. Aliquam illo, cum sed ea? Ducimus quos, ea?&rdquo;</p>
-            </div>
-          </div>
-
-          <div class="text-center p-3 p-md-5 bg-white">
-            <div class="mb-4">            
-              <img src="images/person_2.jpg" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
-            </div>
-            <div class="text-black">
-              <h3 class="font-weight-light h5">Brooke Cagle</h3>
-              <p class="font-italic">&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, iusto. Aliquam illo, cum sed ea? Ducimus quos, ea?&rdquo;</p>
-            </div>
-          </div>
-
-          <div class="text-center p-3 p-md-5 bg-white">
-            <div class="mb-4">            
-              <img src="images/person_3.jpg" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
-            </div>
-            <div class="text-black">
-              <h3 class="font-weight-light h5">Philip Martin</h3>
-              <p class="font-italic">&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, iusto. Aliquam illo, cum sed ea? Ducimus quos, ea?&rdquo;</p>
-            </div>
-          </div>
-
-          <div class="text-center p-3 p-md-5 bg-white">
-            <div class="mb-4">            
-              <img src="images/person_1.jpg" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
-            </div>
-            <div class="text-black">
-              <h3 class="font-weight-light h5">Steven Ericson</h3>
-              <p class="font-italic">&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, iusto. Aliquam illo, cum sed ea? Ducimus quos, ea?&rdquo;</p>
-            </div>
-          </div>
-
-          <div class="text-center p-3 p-md-5 bg-white">
-            <div class="mb-4">            
-              <img src="images/person_2.jpg" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
-            </div>
-            <div class="text-black">
-              <h3 class="font-weight-light h5">Nathan Dumlao</h3>
-              <p class="font-italic">&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, iusto. Aliquam illo, cum sed ea? Ducimus quos, ea?&rdquo;</p>
-            </div>
-          </div>
-
-          <div class="text-center p-3 p-md-5 bg-white">
-            <div class="mb-4">            
-              <img src="images/person_4.jpg" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
-            </div>
-            <div class="text-black">
-              <h3 class="font-weight-light h5">Brook Smith</h3>
-              <p class="font-italic">&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, iusto. Aliquam illo, cum sed ea? Ducimus quos, ea?&rdquo;</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>  
-    
-
-    
     <div class="site-section">
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
-            <h2 class="mb-5">Our DJs</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, fugit nam obcaecati fuga itaque deserunt officia, error reiciendis ab quod?</p>
+            <h2 class="mb-5">It's time to retire</h2>
+            <p>You've worked hard this past season. Your team did well. Or it didn't. But you realize you've had enough. It's been a good run, and it's important to know when to call it quits. That's right, you're going to retire from the Overwatch League.</p>
           </div>
         </div>
+	  </div>
+
+	  <div class="container" data-aos="fade-up">
         <div class="row">
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-            <div class="team-member">
-
-              <img src="images/person_1.jpg" alt="Image" class="img-fluid">
-
-              <div class="text">
-
-                <h2 class="mb-2 font-weight-light h4">Megan Smith</h2>
-                <span class="d-block mb-2 text-white-opacity-05">Creative Director</span>
-                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit ullam reprehenderit nemo.</p>
-                <p>
-                  <a href="#" class="text-white p-2"><span class="icon-facebook"></span></a>
-                  <a href="#" class="text-white p-2"><span class="icon-twitter"></span></a>
-                  <a href="#" class="text-white p-2"><span class="icon-linkedin"></span></a>
-                </p>
-              </div>
-
-            </div>
+          <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
+            <p>Your teammates know, you've given notice to the coaching staff and team ownership, and now there's only one thing left to do. Write an absurdly verbose Twitlonger post and then Tweet it out to the world.</p>
           </div>
+        </div>
+	  </div>
 
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-            <div class="team-member">
-
-              <img src="images/person_2.jpg" alt="Image" class="img-fluid">
-
-              <div class="text">
-
-                <h2 class="mb-2 font-weight-light h4">Brooke Cagle</h2>
-                <span class="d-block mb-2 text-white-opacity-05">Creative Director</span>
-                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit ullam reprehenderit nemo.</p>
-                <p>
-                  <a href="#" class="text-white p-2"><span class="icon-facebook"></span></a>
-                  <a href="#" class="text-white p-2"><span class="icon-twitter"></span></a>
-                  <a href="#" class="text-white p-2"><span class="icon-linkedin"></span></a>
-                </p>
-              </div>
-
-            </div>
+	  <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
+            <h2 class="mb-5">Problem is...writing is f***ing hard</h2>
+            <p>That's where OW Retirement Machine comes in to save the day, like the 2-2-2 lock Blizzard took too long to implement!</p>
           </div>
+        </div>
+	  </div>
 
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-            <div class="team-member">
-
-              <img src="images/person_3.jpg" alt="Image" class="img-fluid">
-
-              <div class="text">
-
-                <h2 class="mb-2 font-weight-light h4">Philip Martin</h2>
-                <span class="d-block mb-2 text-white-opacity-05">Creative Director</span>
-                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit ullam reprehenderit nemo.</p>
-                <p>
-                  <a href="#" class="text-white p-2"><span class="icon-facebook"></span></a>
-                  <a href="#" class="text-white p-2"><span class="icon-twitter"></span></a>
-                  <a href="#" class="text-white p-2"><span class="icon-linkedin"></span></a>
-                </p>
-              </div>
-
-            </div>
+	  <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">            
+            <p>Simply fill out the form below and follow the instructions to share your heartfelt, custom-generated message to the community, your fans, and that one esports "insider" who was "100% certain" you weren't going to do this.</p>
           </div>
-
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-            <div class="team-member">
-
-              <img src="images/person_4.jpg" alt="Image" class="img-fluid">
-
-              <div class="text">
-
-                <h2 class="mb-2 font-weight-light h4">Steven Ericson</h2>
-                <span class="d-block mb-2 text-white-opacity-05">Creative Director</span>
-                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit ullam reprehenderit nemo.</p>
-                <p>
-                  <a href="#" class="text-white p-2"><span class="icon-facebook"></span></a>
-                  <a href="#" class="text-white p-2"><span class="icon-twitter"></span></a>
-                  <a href="#" class="text-white p-2"><span class="icon-linkedin"></span></a>
-                </p>
-              </div>
-
-            </div>
+        </div>
+	  </div>
+	
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
+            <p>Because maybe the real Overwatch League was the friends we made along the way.</p>
           </div>
-
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-            <div class="team-member">
-
-              <img src="images/person_5.jpg" alt="Image" class="img-fluid">
-
-              <div class="text">
-
-                <h2 class="mb-2 font-weight-light h4">Nathan Dumlao</h2>
-                <span class="d-block mb-2 text-white-opacity-05">Creative Director</span>
-                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit ullam reprehenderit nemo.</p>
-                <p>
-                  <a href="#" class="text-white p-2"><span class="icon-facebook"></span></a>
-                  <a href="#" class="text-white p-2"><span class="icon-twitter"></span></a>
-                  <a href="#" class="text-white p-2"><span class="icon-linkedin"></span></a>
-                </p>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-            <div class="team-member">
-
-              <img src="images/person_6.jpg" alt="Image" class="img-fluid">
-
-              <div class="text">
-
-                <h2 class="mb-2 font-weight-light h4">Brooke Cagle</h2>
-                <span class="d-block mb-2 text-white-opacity-05">Creative Director</span>
-                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit ullam reprehenderit nemo.</p>
-                <p>
-                  <a href="#" class="text-white p-2"><span class="icon-facebook"></span></a>
-                  <a href="#" class="text-white p-2"><span class="icon-twitter"></span></a>
-                  <a href="#" class="text-white p-2"><span class="icon-linkedin"></span></a>
-                </p>
-              </div>
-
-            </div>
-          </div>
-
-
         </div>
       </div>
     </div>
+    <div class="site-section bg-dark">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
+            <h2 class="mb-5">Step 1. Fill out the form</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, fugit nam obcaecati fuga itaque deserunt officia, error reiciendis ab quod?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
+            <h2 class="mb-5">Step 2. Copy to Clipboard</h2>
+            <p>You've worked hard this past season. Your team did well. Or it didn't. But you realize you've had enough. It's been a good run, and it's important to know when to call it quits. That's right, you're going to retire from the Overwatch League.</p>
+          </div>
+        </div>
+	  </div>
+	</div>
 
     <div class="site-section bg-dark">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <div class="row">
-          <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto" data-aos="fade-up">
-            <h2 class="mb-5">News &amp; Events</h2>
+          <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
+            <h2 class="mb-5">Step 3. Create Twitlonger</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, fugit nam obcaecati fuga itaque deserunt officia, error reiciendis ab quod?</p>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="site-section">
+      <div class="container" data-aos="fade-up">
         <div class="row">
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
-            <a href="single.html"><img src="images/img_4.jpg" alt="Image" class="img-fluid"></a>
-            <div class="p-4 bg-white">
-              <span class="d-block text-secondary small text-uppercase">Jan 20th, 2019</span>
-              <h2 class="h5 text-black mb-3"><a href="single.html">This Is The Day, Party, Party!</a></h2>
-              
-            </div>
+          <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
+            <h2 class="mb-5">Step 4. Post to Twitter</h2>
+            <p>You've worked hard this past season. Your team did well. Or it didn't. But you realize you've had enough. It's been a good run, and it's important to know when to call it quits. That's right, you're going to retire from the Overwatch League.</p>
           </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
-            <a href="single.html"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
-            <div class="p-4 bg-white">
-              <span class="d-block text-secondary small text-uppercase">Jan 20th, 2019</span>
-              <h2 class="h5 text-black mb-3"><a href="single.html">This Is The Day, Party, Party!</a></h2>
-              
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <a href="single.html"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
-            <div class="p-4 bg-white">
-              <span class="d-block text-secondary small text-uppercase">Jan 20th, 2019</span>
-              <h2 class="h5 text-black mb-3"><a href="single.html">This Is The Day, Party, Party!</a></h2>
-              
-            </div>
+        </div>
+	  </div>
+	</div>
+
+    <div class="site-section bg-dark">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
+            <h2 class="mb-5">Step 5. Let Your New Life Begin</h2>
+            <p>That's it! Now you're free. Maybe take the time to play a game <em>other</em> than Overwatch, or catch up on your <a href="https://www.soundcloud.com/weeklyuprising" target="_blank">favorite podcast</a>.
+
+            Either way, congratulations! You've just retired from the Overwatch League.
+
+        	Where you were paid.
+
+    		To play video games.</p><br />
+    		<a href="https://help.twitter.com/en/using-twitter/delete-tweets" target="_blank"><button class="btn btn-primary rounded-top-right-0" type="button" id="button-addon2">Oh God, What Have I Done?!?</button></a><br /><br />
+    		<a href="https://www.aarp.org/retirement/planning-for-retirement/info-2019/do-and-dont.html" target="_blank"><button class="btn btn-primary rounded-top-right-0" type="button" id="button-addon2">Now I Can Rest</button></a>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="bg-primary" data-aos="fade">
-      <div class="container">
-        <div class="row">
-          <a href="#" class="col-2 text-center py-4 social-icon d-block"><span class="icon-facebook text-white"></span></a>
-          <a href="#" class="col-2 text-center py-4 social-icon d-block"><span class="icon-twitter text-white"></span></a>
-          <a href="#" class="col-2 text-center py-4 social-icon d-block"><span class="icon-instagram text-white"></span></a>
-          <a href="#" class="col-2 text-center py-4 social-icon d-block"><span class="icon-linkedin text-white"></span></a>
-          <a href="#" class="col-2 text-center py-4 social-icon d-block"><span class="icon-pinterest text-white"></span></a>
-          <a href="#" class="col-2 text-center py-4 social-icon d-block"><span class="icon-youtube text-white"></span></a>
-        </div>
-      </div>
-    </div>
-
+          
     <footer class="site-footer">
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
             <div class="mb-5">
-              <h3 class="footer-heading mb-4">About Deejee</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe pariatur reprehenderit vero atque, consequatur id ratione, et non dignissimos culpa? Ut veritatis, quos illum totam quis blanditiis, minima minus odio!</p>
+              <h3 class="footer-heading mb-4">About OW Retirement Machine</h3>
+              <p>Because the end of the season is drawing near, and you never know who will or won't survive the "Hukening" (at least on Boston), I created this helpful tool for players who needed a little help expressing themselves. /s<br /><br />OW Retirement Machine was started as a joke after one of the hosts of the <a href="https://www.twitter.com/weeklyuprising" target="_blank">Weekly Uprising Podcast</a> commented that players use the word "retire" somewhat casually in esports compared to traditional sports.  I hope it gave you a laugh, and if you like this kind of thing, check out the <a href="https://www.soundcloud.com/weeklyuprising" target="_blank">podcast</a>!<br />-Snowy</p>
             </div>
             <div class="mb-5">
               <h3 class="footer-heading mb-4">Subscribe</h3>
@@ -485,61 +170,6 @@
               </form>
             </div>
           </div>
-          <div class="col-lg-4 mb-5 mb-lg-0">
-            <div class="row mb-5">
-              <div class="col-md-12">
-                <h3 class="footer-heading mb-4">Navigations</h3>
-              </div>
-              <div class="col-md-6 col-lg-6">
-                <ul class="list-unstyled">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">DJs</a></li>
-                  <li><a href="#">News</a></li>
-                  <li><a href="#">Top 20 of the week</a></li>
-                </ul>
-              </div>
-              <div class="col-md-6 col-lg-6">
-                <ul class="list-unstyled">
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                  <li><a href="#">Membership</a></li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-12">
-                <h3 class="footer-heading mb-4">Follow Us</h3>
-
-                <div>
-                  <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-4 mb-5 mb-lg-0">
-            <div class="mb-5">
-              <h3 class="footer-heading mb-4">Watch Live Streaming</h3>
-
-              <div class="block-16">
-                <figure>
-                  <img src="images/img_1.jpg" alt="Image placeholder" class="img-fluid rounded">
-                  <a href="https://vimeo.com/channels/staffpicks/93951774" class="play-button popup-vimeo"><span class="icon-play"></span></a>
-                </figure>
-              </div>
-
-            </div>
-
-            
-
-          </div>
-          
         </div>
         <div class="row pt-5 mt-5 text-center">
           <div class="col-md-12">
