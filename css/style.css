@@ -26,17 +26,6 @@ option {
   color: black;
 }
 
-@media screen and (max-width: 600px) {
-  #desktopCopyButton {
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
-    display: none;
-  }
-}
-
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -1811,3 +1800,14 @@ figure figcaption {
         .comment-list li .comment-body .reply:hover {
           color: #fff;
           background: #e3207b; }
+
+@media screen and (max-width: 600px) {
+  #desktopCopyButton {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
