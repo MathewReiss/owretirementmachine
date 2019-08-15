@@ -190,6 +190,11 @@
 
     		generated.innerHTML += "<br /><br />";
 
+    		if(lang.value == "kr"){
+    			generated.innerHTML += "안녕 모두들<br /><br />나는 당신 중 일부가 아마 이것을 위해 나를 판단하고 있다는 것을 알고 있습니다. 결국, 비디오 게임을하기 위해 돈을받는 것은 놀랍게 들리며 때로는 그랬습니다. 애틀랜타 레인이 내게 준 기회에 감사합니다. 하지만 아래에서 설명 할 이유 때문에 이제는 은퇴 할 때가 된 것 같습니다.<br /><br />솔직히 말하면 오버 워치는 더 이상 재미가 없습니다. 새로운 영웅들이 너무 자주 소개되고, 블 리즈는 각 패치 교대마다 랜덤 메타를 소개합니다. 스크림에서, 현재 지배적 인 2-2-2 메타는 brig x pharah입니다 (위를 보지 마십시오). 레벨은 실제로 무작위로 변경됩니다. 캐주얼 플레이어는 알지 못하지만 Horizon Lunar Colony에서 하루 22 시간 연삭 할 때 터널과 레이아웃 변경을 무작위로 맹세합니다.<br /><br />상관없이, 나는 마지막으로 샤워했을 때를 기억할 수 없다.<br /><br />그래서, 나는 그것을 종료라고 부르고 있습니다.<br /><br />그래도 그것은 야생의 타는 것이었다. 나는 OWL에서 놀 기회가 없다고 생각했다. 하지만 저는 저보다 훨씬 앞서서, 유명한 Gladiators Legion을 졸업하여 20 개 최고의 팀 중 하나에 합류했습니다!<br /><br />내가 결코 잊을 수없는이 경험에 관한 것들이있을 것입니다. 전체 군중이 '손 소독제, 손 소독제!'를 부르기 시작했습니다. 골든 보이가 캐스팅 한 시간. 그러나 지금까지 가장 좋아하는 기억은 내가 가장 좋아하는 영웅 인 브리짓 린드 홀름 (Brigitte Lindholm)을 플레이하게되었습니다. 인생을위한 <3 브리그.<br /><br />즉, 내가 가장 놓치게 될 것은 상대 팀에서 선수를 휘 두르거나 악수하거나 안아줄 지 모르는 경기 후의 어색한 순간이라고 생각합니다. 당신은이 미니 실존 위기를 경험하게됩니다. 그것은 훌륭했다.<br /><br />안녕히 가세요, 반대편에서 see겠습니다.";
+    			return;
+    		}
+
     		// Introduction
 
     		generated.innerHTML += "i know that some of you are probably judging me for this. after all, getting paid to play video games sounds amazing, and it has been - at times. i'm grateful for the opportunities that the " + team.options[team.selectedIndex].text + " have given me. but for reasons i'll explain below, now feels like the right time for me to retire.";
